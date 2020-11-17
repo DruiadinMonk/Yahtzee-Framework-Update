@@ -1,0 +1,59 @@
+Yahtzee Game
+
+
+5 Dice
+	press "SPACE" to roll.
+	Each roll WILL check off something in the score card.
+	You CHOOSE which to score section gets filled.
+
+NOTE: If you don't get anything on the score card, total up dice and fill in a spot of your choice.
+
+
+
+
+Score Card
+
+	Upper Section (3 minimum per)
+		ACES: Count ONLY Aces (Ones).
+		TWOS: Count ONLY Twos.
+		THREES: Count ONLY Threes.
+		FOURS: Count ONLY Fours.
+		FIVES: Count ONLY Fives.
+		SIXES: Count ONLY Sixes.
+
+		BONUS (if == 63, then upper += 35)
+		Total: upper == 1 + ... + 6
+
+
+	Lower Section
+
+		3 of a kind: (Total all dice)
+		4 of a kind: (Total all dice)
+		Full House: Score = 25
+		Low Straight: Score = 30
+		High Straight: Score = 40
+		Yahtzee: Score = 50
+		Chance: Total ALL dice
+
+	GRAND TOTAL: upper + lower
+
+
+
+
+
+
+
+
+
+
+
+
+
+# DRAW SCORECARD TEXTS
+
+	for loop for numbers on left hand side
+	text boxes in middle
+
+		text_box_1 = ScoreCard(window, WHITE, )
+		text_box_2 = ScoreCard()
+		text_box_3 = ScoreCard()
